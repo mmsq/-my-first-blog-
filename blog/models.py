@@ -15,7 +15,7 @@ class Post(models.Model):
         self.save()
 
 
-    def __str  (self):
+    def __str__  (self):
         return self.title
 
 # Create your models here.
